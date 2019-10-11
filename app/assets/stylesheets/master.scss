@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "font-awesome";
 @import url('https://fonts.googleapis.com/css?family=Livvic:100,200,400,400i,700,700i&display=swap');
 
 
@@ -102,6 +103,40 @@
   padding: 20px;
 }
 
+.section-li {
+  border: 1px solid;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 20px;
+  margin: 20px;
+}
+
+.lessons li {
+  background: black;
+  color: white;
+  margin: 10px;
+  font-family: 'Livvic', sans-serif;
+  font-weight: 100;
+  padding: 8px;
+  font-size: 15px;
+}
+
+.lessons li b {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.lessons li p {
+  margin: 0;
+}
+
+ul .header {
+  font-size: 25px;
+}
+
+ul .header .fa {
+  font-size: 20px;
+}
+
 h1, h2, h3, h4, h5, h6, .navbar {
   margin: 0;
 }
@@ -113,4 +148,8 @@ body {
 
 video[poster]{
   object-fit: cover;
+}
+
+ul {
+  list-style-type: none;
 }
