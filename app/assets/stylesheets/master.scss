@@ -85,3 +85,7 @@ body {
   background: image_url('trees.png');
   font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
 }
+
+video[poster]{
+  object-fit: cover;
+}
