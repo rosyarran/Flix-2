@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Flix2</title>
+    <title>Flixter</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -12,7 +12,7 @@
 
   <body>
     <div id="flex-content-container">
-      <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+      <nav class="navbar navbar-toggleable-md navbar bg">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -78,24 +78,21 @@
           <div class="col-12 col-sm-3">
             <b>Contact</b>
             <br />
-            utawarran@gmail.com
+            rosy.arreola@yahoo.com
             <br />
-            One Main St.
-            <br />
-            El Paso TX, 79903
+            El Paso, Texas
           </div>
           <div class="col-12 col-sm-3">
             <b>Social</b>
             <br />
-            <br />
+            <%= link_to 'https://www.linkedin.com/in/rosa-arreola-b11936a4/' do %>
+              <span class="fa fa-linkedin-square fa-2x social-button"></span>
+            <% end %>
             <%= link_to 'https://github.com/rosyarran' do %>
               <span class="fa fa-github-square fa-2x social-button"></span>
             <% end %>
             <%= link_to 'https://twitter.com' do %>
               <span class="fa fa-twitter-square fa-2x social-button"></span>
-            <% end %>
-            <%= link_to 'https://www.facebook.com' do %>
-              <span class="fa fa-facebook-square fa-2x social-button"></span>
             <% end %>
           </div>
         </div>

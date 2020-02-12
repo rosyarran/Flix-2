@@ -10,11 +10,15 @@
   background: image_url('pink_rice.png');
 }
 
-.navbar-inverse a.navbar-brand {
+.navbar a.navbar-brand {
   font-family: 'Livvic', sans-serif;
   font-weight: 400;
   color: #1A507E;
 } 
+
+a {
+  color: #1A507E;
+}
 
 .hero {
   background: image_url('pawel-czerwinski-ruJm3dBXCqw-unsplash.jpg') no-repeat center center fixed;
